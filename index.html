@@ -32,31 +32,31 @@
                     <h2>Book a Meeting</h2>
                 </header>
                 <div class="box">
-                    <form method="post" action="#">
+                    <form method="POST" id="contact">
                         <div class="row uniform 50%">
                             <div class="6u 12u(mobilep)">
-                                <input type="text" name="firstname" id="name" value="" placeholder="First Name" />
+                                <input type="text" name="firstname" id="firstname" value="" placeholder="First Name" required/>
                             </div>
                             <div class="6u 12u(mobilep)">
-                                <input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" />
+                                <input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" required/>
                             </div>
                         </div>
                         <div class="row uniform 50%">
                             <div class="6u 12u(mobilep)">
-                                <input type="text" name="firstname" id="name" value="" placeholder="Phone" />
+                                <input type="text" name="phone" id="phone" value="" placeholder="Phone" required/>
                             </div>
                             <div class="6u 12u(mobilep)">
-                                <input type="text" name="lastname" id="lastname" value="" placeholder="Email" />
-                            </div>
-                        </div>
-                        <div class="row uniform 50%">
-                            <div class="12u">
-                                <input type="text" name="subject" id="subject" value="" placeholder="Company" />
+                                <input type="text" name="email" id="email" value="" placeholder="Email" required/>
                             </div>
                         </div>
                         <div class="row uniform 50%">
                             <div class="12u">
-                                <textarea name="message" id="message" placeholder="Event Details" rows="6"></textarea>
+                                <input type="text" name="company" id="company" value="" placeholder="Company" />
+                            </div>
+                        </div>
+                        <div class="row uniform 50%">
+                            <div class="12u">
+                                <textarea type="text" name="event" id="event" placeholder="Event Details" rows="6"></textarea>
                             </div>
                         </div>
                         <div class="row uniform">
@@ -68,6 +68,9 @@
                                 </ul>
                             </div>
                         </div>
+                        <input type="hidden" name="_subject" value="INN LANDING PAGE INQUIRY" />
+                        <input type="hidden" name="_format" value="plain" />
+                        <input type="hidden" name="_next" value="/inn/thankyou" />
                     </form>
                 </div>
             </section>
@@ -129,6 +132,8 @@
             <p>Website hosted by Rutgers, information technology at continuing studies.</p>
         </footer>
     </div>
+    <!-- Main -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
