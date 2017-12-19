@@ -76,7 +76,7 @@
 	}
 
 	.container {
-		width: 60em;
+		width: 35em;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -2180,13 +2180,21 @@
 		opacity: 1.0;
 	}
 
+/* Top Box*/
+
+.topbox {
+
+	padding: 1em !important;
+
+}
+
 /* Box */
 
 	.box {
 		background: #fff;
 		border-radius: 6px;
 		margin: 0 0 2em 0;
-		padding: 3em;
+		padding: 4em;
 	}
 
 		.box > :last-child {
@@ -2769,14 +2777,14 @@
 		display: inline-block;
 		padding-left: 0;
 		position: absolute;
-    right: 0.75em;
+    right: 2em;
     top: 2.5em;
 	}
 
 	#newheader img {
     color: inherit;
     height: inherit;
-    left: 1.25em;
+    left: 2em;
     line-height: inherit;
     margin: 0;
     padding: 20px 0 20px 0;
@@ -2787,14 +2795,15 @@
 /* Top Banner */
 
 	#banner {
-		/*background-attachment: scroll,							fixed;*/
+		background-attachment: scroll,							fixed;
 		background-color: #666;
 		background-image: url("images/overlay.png"), url("../../images/top.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		/*original padding 12em*/
+		padding: 6em 0 20em 0;
 		text-align: center;
 	}
 
