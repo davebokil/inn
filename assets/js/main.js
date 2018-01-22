@@ -2,7 +2,7 @@
 // contactform.setAttribute('action', '//formspree.io/' + 'mtr72' + '@' + 'docs' + '.' + 'rutgers' + '.' + 'edu');
 
 var ccc = document.getElementById('cc');
-cc.setAttribute('value', 'bokiller' + '@' + 'gmail' + '.' + 'com');
+cc.setAttribute('value', 'bokild' + '@' + 'gmail' + '.' + 'com');
 
 
 
