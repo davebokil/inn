@@ -42,6 +42,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	textarea {
+    resize: none;
+	}	
+
 /* Box Model */
 
 	*, *:before, *:after {
